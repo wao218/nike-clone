@@ -1,8 +1,7 @@
-import { Header } from '@/components/Header';
 import './globals.css';
 
-import Link from 'next/link';
-import { Footer } from '@/components/Footer';
+import { Footer } from '@/app/components/Footer';
+import { Header } from '@/app/components/Header';
 
 export const metadata = {
   title: 'Create Next App',
