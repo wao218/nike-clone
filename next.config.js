@@ -4,7 +4,8 @@ const nextConfig = {
     serverActions: true,
   },
   images: {
-    domains: ['https://nike-clone-lac-beta.vercel.app/'],
+    loader: 'akamai',
+    path: '/',
   },
 };
 
