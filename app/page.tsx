@@ -86,7 +86,7 @@ export default function Index() {
 
           <figure className='flex flex-col items-center'>
             <Image
-              src='/../hero-pic.webp'
+              src='/../static/images/hero-pic.webp'
               alt='Nike. Just Do It'
               width={1824}
               height={950}
@@ -116,7 +116,7 @@ export default function Index() {
             <figure>
               <Link href='/'>
                 <Image
-                  src='/../trending-1.webp'
+                  src='/../static/images/trending-1.webp'
                   className='min-w-[300px]'
                   alt='Nike Style Girl'
                   height={600}
@@ -132,7 +132,7 @@ export default function Index() {
             <figure>
               <Link href='/'>
                 <Image
-                  src='/../trending-2.webp'
+                  src='/../static/images/trending-2.webp'
                   className='min-w-[300px]'
                   alt='Nike Bowerman'
                   height={600}
@@ -148,7 +148,7 @@ export default function Index() {
             <figure>
               <Link href='/'>
                 <Image
-                  src='/../trending-3.webp'
+                  src='/../static/images/trending-3.webp'
                   className='min-w-[300px]'
                   alt='Jordan Kids Back to School'
                   height={600}
@@ -170,7 +170,7 @@ export default function Index() {
           <div className='flex-1 pr-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
               <Image
-                src='/../featured-1.webp'
+                src='/../static/images/featured-1.webp'
                 layout='fill'
                 objectFit='cover'
                 alt='Air Force 1 Feature'
@@ -190,7 +190,7 @@ export default function Index() {
           <div className='flex-1 pl-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
               <Image
-                src='/../featured-2.jpeg'
+                src='/../static/images/featured-2.jpeg'
                 layout='fill'
                 objectFit='cover'
                 alt='Nike ACG Feature'
@@ -217,7 +217,7 @@ export default function Index() {
         <div className='mb-8'>
           <figure className='relative'>
             <Image
-              src='/../nike-black-bg.webp'
+              src='/../static/images/nike-black-bg.webp'
               alt='Nike Swoosh'
               width={1824}
               height={407}
@@ -252,7 +252,7 @@ export default function Index() {
             <li>
               <figure className='relative'>
                 <Image
-                  src='/../member-1.webp'
+                  src='/../static/images/member-1.webp'
                   alt='First Access'
                   height={735}
                   width={600}
@@ -268,7 +268,7 @@ export default function Index() {
             <li>
               <figure className='relative'>
                 <Image
-                  src='/../member-2.webp'
+                  src='/../static/images/member-2.webp'
                   alt='Shopping As It Should Be'
                   height={735}
                   width={600}
@@ -284,7 +284,7 @@ export default function Index() {
             <li>
               <figure className='relative'>
                 <Image
-                  src='/../member-3.webp'
+                  src='/../static/images/member-3.webp'
                   alt='Nike By You'
                   height={735}
                   width={600}

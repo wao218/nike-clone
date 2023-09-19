@@ -46,7 +46,7 @@ export function SubFooter() {
             className='hover:text-white flex items-baseline space-x-1'
           >
             <Image
-              src='/../../privacy-image.png'
+              src='/../../static/images/privacy-image.png'
               alt='Your Privacy Choices'
               width={15}
               height={14}
