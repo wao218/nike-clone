@@ -85,7 +85,7 @@ export default function Index() {
           <h2 className='text-2xl font-medium h-[60px]'>New in Nike Tech</h2>
 
           <figure className='flex flex-col items-center'>
-            <Image
+            <img
               src='/../image/hero-pic.webp'
               alt='Nike. Just Do It'
               width={1824}
