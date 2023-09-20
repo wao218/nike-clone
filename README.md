@@ -84,7 +84,7 @@ This project is licensed under the [MIT License](LICENSE).
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
 - [Supabase](https://supabase.io/)
-- [Stipe](https://stripe.com)
+- [Stripe](https://stripe.com)
 
 ## Acknowledgments
 
