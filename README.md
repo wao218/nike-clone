@@ -9,10 +9,8 @@ This project is a simplified clone of the Nike e-commerce website, showcasing th
 - [Installation](#installation)
 - [Usage](#usage)
 - [Features](#features)
-- [Contributing](#contributing)
 - [License](#license)
-- [Credits](#credits)
-- [Contact](#contact)
+- [Technologies](#technologies)
 - [Acknowledgments](#acknowledgments)
 
 ## Installation
@@ -81,7 +79,7 @@ This Nike clone project demonstrates the following features:
 
 This project is licensed under the [MIT License](LICENSE).
 
-## Technologies Used
+## Technologies
 
 - [Next.js](https://nextjs.org/)
 - [Tailwind CSS](https://tailwindcss.com/)
