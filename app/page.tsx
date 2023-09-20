@@ -1,4 +1,3 @@
-import Image from 'next/image';
 import Link from 'next/link';
 
 const leftSideLinks = [
@@ -169,12 +168,7 @@ export default function Index() {
         <div className='flex justify-between'>
           <div className='flex-1 pr-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
-              <img
-                src='/../image/featured-1.webp'
-                layout='fill'
-                objectFit='cover'
-                alt='Air Force 1 Feature'
-              />
+              <img src='/../image/featured-1.webp' alt='Air Force 1 Feature' />
               <figcaption className='absolute bottom-8 left-8 p-4 text-white'>
                 <p className='text-sm'>Iconic Forever</p>
                 <h3 className='text-xl font-semibold mb-11'>Air Force 1</h3>
@@ -189,12 +183,7 @@ export default function Index() {
           </div>
           <div className='flex-1 pl-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
-              <img
-                src='/../image/featured-2.jpeg'
-                layout='fill'
-                objectFit='cover'
-                alt='Nike ACG Feature'
-              />
+              <img src='/../image/featured-2.jpeg' alt='Nike ACG Feature' />
               <figcaption className='absolute bottom-8 left-8 p-4 text-white'>
                 <p className='text-sm'>Nike ACG</p>
                 <h3 className='text-xl font-semibold mb-11'>Hike-Ready Gear</h3>
