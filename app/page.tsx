@@ -115,7 +115,7 @@ export default function Index() {
           <li>
             <figure>
               <Link href='/'>
-                <Image
+                <img
                   src='/../image/trending-1.webp'
                   className='min-w-[300px]'
                   alt='Nike Style Girl'
@@ -131,7 +131,7 @@ export default function Index() {
           <li>
             <figure>
               <Link href='/'>
-                <Image
+                <img
                   src='/../image/trending-2.webp'
                   className='min-w-[300px]'
                   alt='Nike Bowerman'
@@ -147,7 +147,7 @@ export default function Index() {
           <li>
             <figure>
               <Link href='/'>
-                <Image
+                <img
                   src='/../image/trending-3.webp'
                   className='min-w-[300px]'
                   alt='Jordan Kids Back to School'
@@ -169,7 +169,7 @@ export default function Index() {
         <div className='flex justify-between'>
           <div className='flex-1 pr-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
-              <Image
+              <img
                 src='/../image/featured-1.webp'
                 layout='fill'
                 objectFit='cover'
@@ -189,7 +189,7 @@ export default function Index() {
           </div>
           <div className='flex-1 pl-2 relative'>
             <figure className='w-full h-[680px] relative mb-4'>
-              <Image
+              <img
                 src='/../image/featured-2.jpeg'
                 layout='fill'
                 objectFit='cover'
@@ -216,7 +216,7 @@ export default function Index() {
 
         <div className='mb-8'>
           <figure className='relative'>
-            <Image
+            <img
               src='/../image/nike-black-bg.webp'
               alt='Nike Swoosh'
               width={1824}
@@ -251,7 +251,7 @@ export default function Index() {
           <ul className='flex space-x-2'>
             <li>
               <figure className='relative'>
-                <Image
+                <img
                   src='/../image/member-1.webp'
                   alt='First Access'
                   height={735}
@@ -267,7 +267,7 @@ export default function Index() {
             </li>
             <li>
               <figure className='relative'>
-                <Image
+                <img
                   src='/../image/member-2.webp'
                   alt='Shopping As It Should Be'
                   height={735}
@@ -283,7 +283,7 @@ export default function Index() {
             </li>
             <li>
               <figure className='relative'>
-                <Image
+                <img
                   src='/../image/member-3.webp'
                   alt='Nike By You'
                   height={735}
