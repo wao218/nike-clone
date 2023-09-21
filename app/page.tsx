@@ -111,7 +111,7 @@ export default function Index() {
         </section>
         <section className='mt-16 flex flex-col'>
           <h2 className='text-2xl font-medium h-[60px]'>Trending</h2>
-          <ul className='flex justify-between'>
+          <ul className='flex justify-between space-x-2'>
             <li>
               <figure>
                 <Link href='/'>
