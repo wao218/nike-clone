@@ -1,4 +1,5 @@
 import Link from 'next/link';
+import { ProductItem } from '../components/product/productItem';
 
 export default function NewAndFeatured() {
   const products = [
@@ -59,30 +60,7 @@ export default function NewAndFeatured() {
           New Releases <span>{`(${products.length})`}</span>
         </h1>
       </div>
-      <div className='flex flex-wrap mt-2'>
-        {products.map((product) => {
-          return (
-            <div className='w-1/3 px-2 mb-3'>
-              <Link href={`/new/product/${product.id}`}>
-                <img
-                  src='/../image/example-product.webp'
-                  alt='Product Listing'
-                />
-                <div className='my-4'>
-                  <p className='font-medium text-[#111]'>{product.title}</p>
-                  <p className='text-[#707072]'>{product.category}</p>
-                  <p className='text-[#707072]'>
-                    {product.colorVariations.length} colors
-                  </p>
-                  <p className='font-medium text-[#111] mt-3'>
-                    ${product.price}
-                  </p>
-                </div>
-              </Link>
-            </div>
-          );
-        })}
-      </div>
+      <ProductItem products={products} />
     </div>
   );
 }
