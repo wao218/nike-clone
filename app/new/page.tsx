@@ -1,4 +1,3 @@
-import Link from 'next/link';
 import { ProductItem } from '../components/product/productItem';
 
 export default function NewAndFeatured() {
