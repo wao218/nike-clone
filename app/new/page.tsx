@@ -7,7 +7,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
     {
@@ -15,7 +14,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
     {
@@ -23,7 +21,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
     {
@@ -31,7 +28,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
     {
@@ -39,7 +35,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
     {
@@ -47,7 +42,6 @@ export default function NewAndFeatured() {
       title: 'Nike Dunk Low Next Nature',
       imageUrl: 'testing.com',
       category: "Women's Shoes",
-      colorVariations: ['blue', 'green', 'red'],
       price: 110,
     },
   ];

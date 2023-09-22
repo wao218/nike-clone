@@ -9,7 +9,6 @@ export default function ProductPage({
     title: 'Nike Dunk Low Next Nature',
     imageUrl: 'testing.com',
     category: "Women's Shoes",
-    colorVariations: ['blue', 'green', 'red'],
     price: 110,
     sizes: ['XS', 'S', 'M', 'L', 'XL', 'XXL', '3XL', '4XL'],
   };

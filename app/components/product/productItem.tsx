@@ -11,9 +11,6 @@ export function ProductItem({ products }: { products: any }) {
               <div className='my-4'>
                 <p className='font-medium text-[#111]'>{product.title}</p>
                 <p className='text-[#707072]'>{product.category}</p>
-                <p className='text-[#707072]'>
-                  {product.colorVariations.length} colors
-                </p>
                 <p className='font-medium text-[#111] mt-3'>${product.price}</p>
               </div>
             </Link>
