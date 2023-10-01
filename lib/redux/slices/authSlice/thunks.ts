@@ -2,7 +2,10 @@ import { createAppAsyncThunk } from '../../createAppAsyncThunk';
 
 export const signInUser = createAppAsyncThunk(
   'auth/signInUser',
-  async (credentials, { rejectWithValue }) => {
+  async (
+    credentials: { email: string; password: string },
+    { rejectWithValue }
+  ) => {
     try {
       const response = await fetch('/auth/sign-in', {
         method: 'POST',

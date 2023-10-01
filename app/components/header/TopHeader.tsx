@@ -1,6 +1,18 @@
+'use client';
+
+import { useDispatch, useSelector } from '@/lib/redux';
+import { selectUser } from '@/lib/redux/slices/authSlice/selectors';
+import { signOutUser } from '@/lib/redux/slices/authSlice/thunks';
 import Link from 'next/link';
 
 export function TopHeader() {
+  const user = useSelector(selectUser);
+  const dispatch = useDispatch();
+
+  const handleSignOut = () => {
+    dispatch(signOutUser());
+  };
+
   return (
     <div className='h-9 bg-neutral-100 relative w-full z-20'>
       <div className='pl-9 pr-[38px] max-w-[1920] max-h-[60] opacity-100 h-full mx-auto flex justify-between flex-nowrap flex-row'>
@@ -48,9 +60,13 @@ export function TopHeader() {
             <span>|</span>
           </div>
           <div className='flex items-center text-xs font-medium space-x-2'>
-            <Link href={'/sign-in'}>
-              <span>Sign In</span>
-            </Link>
+            {!user ? (
+              <Link href={'/sign-in'}>
+                <span>Sign In</span>
+              </Link>
+            ) : (
+              <button onClick={handleSignOut}>Sign Out</button>
+            )}
           </div>
         </div>
       </div>

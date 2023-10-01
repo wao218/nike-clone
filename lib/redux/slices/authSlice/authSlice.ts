@@ -7,7 +7,7 @@ interface AuthState {
   error: string | undefined;
 }
 
-interface User {
+export interface User {
   id: string;
   email: string;
 }
